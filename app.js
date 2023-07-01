@@ -190,13 +190,11 @@ function animateBars(){
     line1__bars.classList.toggle("activeline1__bars-menu");
     line2__bars.classList.toggle("activeline2__bars-menu");
     line3__bars.classList.toggle("activeline3__bars-menu");
-    /*nav.classList.add("visible");*/
     body.classList.toggle("body_move");
     side__menu.classList.toggle("menu__side_move");
     btn__open.classList.toggle("header");
     tarjeta.classList.toggle("body_move");
     tarjetab.classList.toggle("move2");
-    lottie2.classList.toggle("lottieMove");
 }
 
 
@@ -208,6 +206,8 @@ async function mover(){
     tarjeta.classList.toggle("active");
     await delay(300);
     tarjetab.classList.toggle("active");
+    await delay(100);
+    animateBars();
 
 }
 
@@ -220,6 +220,8 @@ async function mover2(){
     tarjetab.classList.toggle("active");
     await delay(300);
     tarjeta.classList.toggle("active");
+    await delay(100);
+    animateBars();
 }
 
 
