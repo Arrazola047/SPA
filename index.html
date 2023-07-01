@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavito SPA</title>
+    <link rel="stylesheet" href="resetcss/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;800&family=Raleway:wght@100;300;400;800&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <!--Inicio de la cabecera-->
+    <header id="header">
+        <div id="logotipo">
+            <img src="Imagenes/Logo.png" alt="Logotipo" id="logotipoimg">
+            <img src="Imagenes/Textto.png" alt="NombreSPA" id="texto">
+            <nav class="bars__menu" id="ico__menu">
+                <span class="line1__bars-menu"></span>
+                <span class="line2__bars-menu"></span>
+                <span class="line3__bars-menu"></span>
+            </nav>
+        </div>
+    </header>
+    <!--Fin de la cabecera-->
+    <!--Inicio de la tarjeta de elementos-->
+    <div class="menu__side" id="menu_side">
+        <div class="name__page">
+            <img src="Imagenes/Textto.png" alt="NombreSPA" id="textoside">
+        </div>
+        <div class="option__menu">
+            <a href="https://www.facebook.com/profile.php?id=100057052034134&mibextid=LQQJ4d">
+                <div class="option">
+                    <h4 class="txtmenu">Quienes Somos</h4>
+                </div>
+            </a>
+            <h4  class="txtmenu"id="serviciosMenu">Servicios</h4>
+
+            <a href="#" class="selected" id="selected"></a>
+
+            <a href="#" id="MyP">
+                <div class="option" id="txtmenuside">
+                    <h4 class="txtmenu">Manicura<br>Y<br>Pedicura</h4>
+                </div>
+            </a>
+            <a href="#" id="Pst">
+                <div class="option" id="txtmenuside">
+                    <h4 class="txtmenu">Pestañas</h4>
+                </div>
+            </a>
+            <a href="https://www.tiktok.com/@braniaarrazola">
+                <div class="option" id="icoside">
+                    <img src="Imagenes/tik-tok.png" alt="TikTok" id="tiktokico" class="ico">
+                </div>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100057052034134&mibextid=LQQJ4d">
+                <div class="option" id="icoside">
+                    <img src="Imagenes/facebook.png" alt="Facebook" id="facebookico" class="ico">
+                </div>
+            </a>
+            <a href="https://wa.me/c/5218444053354">
+                <div class="option" id="icoside">
+                    <img src="Imagenes/whatsapp.png" alt="whatsApp" id="whatsappico" class="ico">
+                </div>
+            </a>
+        </div>
+        <div class="copyR">
+            <h6>Desarrollado con ❤ por: Ramon Arrazola <br>&copy; 2023</h6>
+        </div>
+    </div>
+    <!--Inicio de la tarjeta MYP-->
+    <div class="tarjeta active" id="tarjeta">
+        <div class="titulot" id="titulot">
+            <div class="tituloc" id="tituloc">
+                <h4>Manicura<br>Y<br>Pedicura</h4>
+            </div>
+            <div class="divisor " id="divisorT1">
+                <span class="lined" id="lined"></span>
+            </div>
+        </div>
+        <div class="contenido">  
+            <div class="lista">
+                <ul>
+                    <a href="#" class="item" id="ManiClas">Manicura Clasica</a><br>
+                    <a href="#" class="item" id="PediClas">Pedicura Clasica</a><br>
+                    <a href="#" class="item" id="ManiPrem">Manicura Premium</a><br>
+                    <a href="#" class="item" id="PediPrem">Pedicura Premium</a><br>
+                    <a href="#" class="item" id="ManiDel">Manicura Deluxe</a><br>
+                    <a href="#" class="item" id="PediDel">Pedicura Deluxe</a><br>
+                    <a href="#" class="item" id="GelM">Gel Manos</a><br>
+                    <a href="#" class="item" id="GelP">Gel Pies</a><br>
+                    <a href="#" class="item" id="AcriM">Acrilico Manos</a><br>
+                    <a href="#" class="item" id="AcriP">Acrilico Pies</a><br>
+                    <a href="#" class="item" id="Detox">Desintoxicacion Ionica</a><br>
+                    <a href="#" class="item" id="DetoxP">Desintoxicacion Ionica +</a><br>
+                    
+                </ul>
+            </div>
+            <div class="precios">
+                <a href="#" class="item" id="">$150</a><br>
+                <a href="#" class="item" id="">$200</a><br>
+                <a href="#" class="item" id="">$250</a><br>
+                <a href="#" class="item" id="">$350</a><br>
+                <a href="#" class="item" id="">$510</a><br>
+                <a href="#" class="item" id="">$525</a><br>
+                <a href="#" class="item" id="">$200</a><br>
+                <a href="#" class="item" id="">$250</a><br>
+                <a href="#" class="item" id="">$400</a><br>
+                <a href="#" class="item" id="">$320</a><br>
+                <a href="#" class="item" id="">$350</a><br>
+                <a href="#" class="item" id="">$450</a><br>
+            </div>
+        </div>
+    </div>
+    <!--Fin Tarjeta MYP-->
+    <!--Inicio Tarjeta P-->
+    <div class="tarjeta" id="tarjetab">
+        <div class="titulot" id="titulotb">
+            <div class="tituloc" id="titulocb">
+                <h4>Pestañas</h4>
+            </div>
+            <div class="divisor " id="divisorT2">
+                <span class="lined" id="lined"></span>
+            </div>
+        </div>
+        <div class="contenido">  
+            <div class="lista">
+                <ul>
+                    <a href="#" class="item" id="Clas">Clasicas</a><br>
+                    <a href="#" class="item" id="ClasC">Clasicas CavitoSPA</a><br>
+                    <a href="#" class="item" id="VHaw">Volumen Hawaiiano</a><br>
+                    <a href="#" class="item" id="Hib">Hibridas</a><br>
+                    <a href="#" class="item" id="V3d">Volumen 3d</a><br>
+                    <a href="#" class="item" id="Vgrie">Volumen Griego 5D</a><br>
+                    <a href="#" class="item" id="VSPA">Volumen CavitoSPA 8D</a><br>
+                    <a href="#" class="item" id="Vol">Volumen</a><br>
+                    <a href="#" class="item" id="MVol">MegaVolumen</a><br>
+                    <a href="#" class="item" id="Ret">Retiro</a><br>                   
+                    <a href="#" class="item" id="XL">Extra Largo</a><br>
+                    <a href="#" class="item" id="PCol">Pop Color</a><br>
+                    <a href="#" class="item" id="Col">Color</a><br>
+                    <a href="#" class="item" id="Glit">Glitter 2/4</a><br>
+                    <a href="#" class="item" id="GlitF">Glitter Full</a><br>                 
+                    <a href="#" class="item" id="DC">Diseño de Cejas</a><br>
+                </ul>
+            </div>
+            <div class="precios" id="preciosP">
+                <a href="#" class="item" id=""></a>
+                    <a href="#" class="item" id="">$320</a><br>
+                    <a href="#" class="item" id="">$370</a><br>
+                    <a href="#" class="item" id="">$420</a><br>
+                    <a href="#" class="item" id="">$495</a><br>
+                    <a href="#" class="item" id="">$510</a><br>
+                    <a href="#" class="item" id="">$565</a><br>
+                    <a href="#" class="item" id="">$610</a><br>
+                    <a href="#" class="item" id="">$685</a><br>
+                    <a href="#" class="item" id="">$735</a><br>
+                    <a href="#" class="item" id="">$85</a><br>   
+                    <a href="#" class="item" id="">$100</a><br>
+                    <a href="#" class="item" id="">$50</a><br>
+                    <a href="#" class="item" id="">$100</a><br>
+                    <a href="#" class="item" id="">$20</a><br>
+                    <a href="#" class="item" id="">$80</a><br>  
+                    <a href="#" class="item" id="">$255</a><br>
+            </div>
+        </div>
+    </div>
+    <!--Fin Tarjeta P-->
+    <!--Overlay(Blur)-->
+    <div class="overlay" id="overlay"></div>
+    <!--Inicio PopuP-->
+    <div class="popup" id="popup">
+        <div class="closepop">
+            <div class="cpico" id="cpico">
+                <span class="line1" id="line1"></span>
+                <span class="line2" id="line2"></span>
+            </div>
+        </div>
+        <!--MANICURA CLASICA-->
+        <div class="imgPop oculto" id="imgPop">
+            <img src="Imagenes/manicura-t.jpg.webp" alt="ManicuraClasica" id="imgPopMC">
+        </div>
+        <div class="titulopop oculto" id="tituloPop">
+            <h4>Manicura Clasica</h4>
+        </div>
+        <div class="divisor oculto" id="divisor">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion oculto" id="descripcion">
+            <p>Deja tus manos en manos de nuestros expertos, luce impecable con nuestra manicura clasica que incluye limpiar las uñas, 
+                retirar la cuticula, limar, cortar, y si lo deseas, aplicar un brillo transparente sobre las uñas una vez aseadas y con forma, 
+                este servicio es ideal para caballeros o damas pulcros que gustan de consentir sus manos</p>
+        </div>
+        <div class="extra oculto" id="extra">
+            <div class="tituloe" id="tituloe"><h4>Quieres Mas?</h4></div>
+            <div class="extras" id="extras">
+                <ul>
+                    <li>Mano Alzada</li>
+                    <li>Decoracion</li>
+                    <li>Acrilico Largo</li>
+                    <li>Acrilico Extra Largo</li>
+                </ul>
+                <div class="divisor oculto" id="divisor2">
+                    <span class="lined" id="lined"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+        <!--FIN MANICURA CLASICA-->
+        <!--PEDICURA CLASICA-->
+        <div class="imgPop2 oculto" id="imgPop2">
+            <img src="Imagenes/pedicura.jpg" alt="PedicuraClasica" id="imgPopMC">
+        </div>
+        <div class="titulopop2 oculto" id="tituloPop2">
+            <h4>Pedicura Clasica</h4>
+        </div>
+        <div class="divisor2 oculto" id="divisorB2">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion2 oculto" id="descripcion2">
+            <p>Luce unos pies impecables con nuestra pedicura clarica, comenzamos con la limpieza de los pies
+                sumergiendolos en un baño de agua tibia, escencias naturales y piedras de rio.<br>
+                Eliminamos las durezas, cortamos las uñas en caso de ser encesarioy empujamos la cuticula y para acabar limando las uñas, ademas
+                si lo deseas, podemos aplicar un brillo transparente.<br>
+                Este servicio es ideal para caballeros o damas que gustan de lucir unos pies impecables
+            </p>
+        </div>
+        <div class="espaciof oculto" id="oculto"></div>
+        <!--FIN PEDICURA CLASICA-->
+        <!--Inicio Manicura Premium-->
+        <div class="imgPop3 oculto" id="imgPop3">
+            <img src="Imagenes/ManicuraPremium.jpg" alt="ManicuraPremium" id="imgPopMC">
+        </div>
+        <div class="titulopop3 oculto" id="tituloPop3">
+            <h4>Manicura Premium</h4>
+        </div>
+        <div class="divisor3 oculto" id="divisor3">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion3 oculto" id="descripcion3">
+            <p>Luce unas manos arregladas con nuestra manicura premium.<br>
+               Comenzaremos relajando tus manos en sales de aromaticas que eliminaran la piel muerta, siguiendo
+               con la limpieza de las uñas, retirar la cuticula, limar, cortar y aplicar un esmaltado semipermanente de 1 o 2 colores
+              de tu preferencia para terminar con un ligero masaje con crema hidratante</p>
+        </div>
+        <div class="extra3 oculto" id="extra3">
+            <div class="tituloe3" id="tituloe3"><h4>Quieres Mas?</h4></div>
+            <div class="extras3" id="extras3">
+                <ul>
+                    <li>Mano Alzada</li>
+                    <li>Decoracion</li>
+                    <li>Acrilico Largo</li>
+                    <li>Acrilico Extra Largo</li>
+                </ul>
+                <div class="divisor3 oculto" id="divisorB3">
+                    <span class="lined" id="lined"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+        <!--Fin Manicura Premium-->
+        <!--PEDICURA Premium-->
+        <div class="imgPop4 oculto" id="imgPop4">
+            <img src="Imagenes/PedicuraPremium.jpg" alt="PedicuraPremium" id="imgPopMC">
+        </div>
+        <div class="titulopop4 oculto" id="tituloPop4">
+            <h4>Pedicura Premium</h4>
+        </div>
+        <div class="divisor4 oculto" id="divisor4">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion4 oculto" id="descripcion4">
+            <p>Luce unos pies arreglados con nuestra pedicura Premium.<br>
+               Comenzamos con la limpieza de los pies, sumergiéndolos en un baño de agua tibia y sales aromaticas
+               que ayudan a eliminar callosidades y piel muerta, eliminamos las durezas de talones y dedos, cortamos las uñas en caso de ser necesario
+               y empujamos las cutículas, limaremos las uñas y agregamos un esmaltado de uno o dos colores de tu preferencia oara terminar con un ligero masaje 
+               con crema hidratante 
+            </p>
+        </div>
+        <div class="espaciof4 oculto" id="oculto4"></div>
+        <!--FIN PEDICURA Premium-->
+        <!--Inicio Manicura Deluxe-->
+        <div class="imgPop5 oculto" id="imgPop5">
+            <img src="Imagenes/ManicuraDeluxe.jfif" alt="ManicuraDeluxe" id="imgPopMD">
+        </div>
+        <div class="titulopop5 oculto" id="tituloPop5">
+            <h4>Manicura Deluxe</h4>
+        </div>
+        <div class="divisor5 oculto" id="divisor5">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion5 oculto" id="descripcion5">
+            <p>Porque te lo mereces!.<br>
+                Consiente y relaja tus manos con nuestra manicura Deluxe.<br>
+                Comenzaremos Relajando tus manos con nuestro jelly spa que es ideal para piel cansada, eliminaremos celulas muertas y relajaremos los musculos, 
+                siguiendo con la preparacion de tu uña para un acrilico en uno o dos tonos de tu preferencia con un largo maximo del N°3, terminando con un masaje ligero y 
+                aplicando un aceite escencial adecuado a as necesidades de tu piel.
+            </p>
+        </div>
+        <div class="extra5 oculto" id="extra5">
+            <div class="tituloe5" id="tituloe5"><h4>Quieres Mas?</h4></div>
+            <div class="extras5" id="extras5">
+                <ul>
+                    <li>Mano Alzada</li>
+                    <li>Decoracion</li>
+                    <li>Acrilico Largo</li>
+                    <li>Acrilico Extra Largo</li>
+                </ul>
+                <div class="divisor5 oculto" id="divisorB5">
+                    <span class="lined" id="lined"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+        <!--Fin Manicura Deluxe-->
+        <!--PEDICURA Deluxe-->
+        <div class="imgPop6 oculto" id="imgPop6">
+            <img src="Imagenes/PedicuraDeluxe.jfif" alt="PedicuraDeluxe" id="imgPopPD">
+        </div>
+        <div class="titulopop6 oculto" id="tituloPop6">
+            <h4>Pedicura Deluxe</h4>
+        </div>
+        <div class="divisor6 oculto" id="divisor6">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion6 oculto" id="descripcion6">
+            <p>Tus pies merecen ser consentidos con nuestra pedicura deluxe.<br>
+                Es ideal para pies fatigados que relajaras en nuestro jelly spa que te ayudara a eliminar celulas muertas y a relajar tus musculos, siguiendo con la preparacion
+                de tus uñas para agregar acrilico y mejorar la apariencia de tus uñas en 1 o 2 colores de tu preferencia y de ser necesario depilar los vellos de tus dedos, 
+                y para terminar con un ligero masaje con un aceite esencial para dar un extra de suavidad a tu piel.
+            </p>
+        </div>
+        <div class="espaciof6 oculto" id="oculto6"></div>
+        <!--FIN PEDICURA Deluxe-->
+        <!--Inicio Gel Manos-->
+        <div class="imgPop7 oculto" id="imgPop7">
+            <img src="Imagenes/gelmanos.jpg" alt="Gel Manos" id="imgGelM">
+        </div>
+        <div class="titulopop7 oculto" id="tituloPop7">
+            <h4>Gel Manos</h4>
+        </div>
+        <div class="divisor7 oculto" id="divisor7">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion7 oculto" id="descripcion7">
+            <p>Arregla tus manos con nuestro esmaltado semipermanente en uno o dos colores de tu preferencia sobre tus uñas naturales.
+            </p>
+        </div>
+        <!--<div class="espaciof7 oculto" id="oculto7"></div>-->
+        <!--FIN Gel Manos-->
+        <!--Inicio Gel Pies-->
+        <div class="imgPop8 oculto" id="imgPop8">
+            <img src="Imagenes/gelpies.jpg" alt="Gel Pies" id="imgGelP">
+        </div>
+        <div class="titulopop8 oculto" id="tituloPop8">
+            <h4>Gel Pies</h4>
+        </div>
+        <div class="divisor8 oculto" id="divisor8">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion8 oculto" id="descripcion8">
+            <p>Luce unos pies arreglados con nuestro esmaltado semipermanente en uno o dos colores de tu preferencia sobre tus uñas naturales.
+            </p>
+        </div>
+        <!--FIN Gel Pies-->
+        <!--Inicio Acrilico Manos-->
+        <div class="imgPop9 oculto" id="imgPop9">
+            <img src="Imagenes/acrilicomanos.jfif" alt="Acrilico Manos" id="imgAcrM">
+        </div>
+        <div class="titulopop9 oculto" id="tituloPop9">
+            <h4>Acrilico Manos</h4>
+        </div>
+        <div class="divisor9 oculto" id="divisor9">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion9 oculto" id="descripcion9">
+            <p>Mejora la forma o agrega largo extra a tus uñas con acrilico en largo max 3 en uno o dos colores de tu preferencia.
+            </p>
+        </div>
+        <!--FIN Acrilico Manos-->
+        <!--Inicio Acrilico Pies-->
+        <div class="imgPop10 oculto" id="imgPop10">
+            <img src="Imagenes/acrilicoPies.jpg" alt="Acrilico Pies" id="imgAcrP">
+        </div>
+        <div class="titulopop10 oculto" id="tituloPop10">
+            <h4>Acrilico Pies</h4>
+        </div>
+        <div class="divisor10 oculto" id="divisor10">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion10 oculto" id="descripcion10">
+            <p>Mejora la forma de tus uñas con acrilico en uno o dos colores de tu preferencia.
+            </p>
+        </div>
+        <!--FIN Acrilico Pies-->
+        <!--Inicio Desintoxicacion Ionica-->
+        <div class="imgPop11 oculto" id="imgPop11">
+            <img src="Imagenes/detox.jpg" alt="Desintoxicacion Ionica" id="imgDetox">
+        </div>
+        <div class="titulopop11 oculto" id="tituloPop11">
+            <h4>Desintoxicacion Ionica</h4>
+        </div>
+        <div class="divisor11 oculto" id="divisor11">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion11 oculto" id="descripcion11">
+            <p>Sabemos que la bellleza tambien es interior.<br> 
+                Con esto en mente ofrecemos una eliminacion de toxinas por medio de los poros de tus pies.
+            </p>
+        </div>
+        <!--FIN Desintoxicacion Ionica-->
+        <!--Inicio Desintoxicacion Ionica + -->
+        <div class="imgPop12 oculto" id="imgPop12">
+            <img src="Imagenes/detoxP.jfif" alt="Desintoxicacion Ionica +" id="imgDetoxP">
+        </div>
+        <div class="titulopop12 oculto" id="tituloPop12">
+            <h4>Desintoxicacion Ionica +</h4>
+        </div>
+        <div class="divisor12 oculto" id="divisor12">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion12 oculto" id="descripcion12">
+            <p>Sabemos que la bellleza tambien es interior.<br> 
+                Con esto en mente ofrecemos una eliminacion de toxinas por medio de los poros de tus pies.
+            </p>
+        </div>
+        <!--FIN Desintoxicacion Ionica + -->
+
+        <!-------------------------------Pestañas---------------------------------------------->
+
+         <!--Inicio  Clasicas -->
+        <div class="imgPop13 oculto" id="imgPop13">
+            <img src="Imagenes/pclasicas.jpg" alt="Clasicas" id="imgPopPC">
+        </div>
+        <div class="titulopop13 oculto" id="tituloPop13">
+            <h4>Pestañas Clasicas</h4>
+        </div>
+        <div class="divisor13 oculto" id="divisor13">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion13 oculto" id="descripcion13">
+            <p>Realza tu mirada con la tecnica clasica.<br>Esta tecnica es ideal para resaltar tu mirada con un acabado natural 
+                y el diseño de tu eleccion, ideal para pestañas pobladas. <br>(Una pestaña en cada pestaña natural)</p>
+        </div>
+        <div class="extra13 oculto" id="extra13">
+            <div class="tituloe13" id="tituloe13"><h4>Quieres Mas?</h4></div>
+            <div class="extras13" id="extras13">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto13" id="divisorB13">
+                    <span class="lined13" id="lined13"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Clasicas  -->
+         <!--Inicio CLasicas CavitoSPA -->
+        <div class="imgPop14 oculto" id="imgPop14">
+            <img src="Imagenes/clasicaSPA.jpg" alt="ClasicasSPA" id="imgPopPCC">
+        </div>
+        <div class="titulopop14 oculto" id="tituloPop14">
+            <h4>Clasicas CavitoSPA</h4>
+        </div>
+        <div class="divisor14 oculto" id="divisor14">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion14 oculto" id="descripcion14">
+            <p>Nadie notará que usas extensiones de pestañas con la tecnica de CavitoSPA!.<br>
+                Diseño personalizado para tu tipo de mirada, en diferentes largos adaptados a la medida natural de tus pestañas y en curva C con acabado semi-mate</p>
+        </div>
+        <div class="extra14 oculto" id="extra14">
+            <div class="tituloe14" id="tituloe14"><h4>Quieres Mas?</h4></div>
+            <div class="extras14" id="extras14">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto14" id="divisorB14">
+                    <span class="lined14" id="lined14"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Clasicas CavitoSPA -->
+         <!--Inicio Volumen Hawaiano -->
+        <div class="imgPop15 oculto" id="imgPop15">
+            <img src="Imagenes/vhaw.jpg" alt="Volumen Hawaiano" id="imgPopHW">
+        </div>
+        <div class="titulopop15 oculto" id="tituloPop15">
+            <h4>Volumen Hawaiano</h4>
+        </div>
+        <div class="divisor15 oculto" id="divisor15">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion15 oculto" id="descripcion15">
+            <p>Aporta un volumen sutil con las fibras "YY".<br>
+                Esta fibra es ideal si te gusta lucir unas pestañas espesas y negras</p>
+        </div>
+        <div class="extra15 oculto" id="extra15">
+            <div class="tituloe15" id="tituloe15"><h4>Quieres Mas?</h4></div>
+            <div class="extras15" id="extras15">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto15" id="divisorB15">
+                    <span class="lined15" id="lined15"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Volumen Hawaiano-->
+         <!--Inicio Hibridas -->
+        <div class="imgPop16 oculto" id="imgPop16">
+            <img src="Imagenes/hibridas.jpg" alt="Hibridas" id="imgPopH">
+        </div>
+        <div class="titulopop16 oculto" id="tituloPop16">
+            <h4>Hibridas</h4>
+        </div>
+        <div class="divisor16 oculto" id="divisor16">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion16 oculto" id="descripcion16">
+            <p>Aporta un volumen extra con la tecnica hibrida.<br>
+                50% clasica y 50% volumen.<br>
+                Esta tecnica es ideal para pestañas poco pobladas sin perder la naturalidad y en el diseño de tu preferencia</p>
+        </div>
+        <div class="extra16 oculto" id="extra16">
+            <div class="tituloe16" id="tituloe16"><h4>Quieres Mas?</h4></div>
+            <div class="extras16" id="extras16">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto16" id="divisorB16">
+                    <span class="lined16" id="lined16"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Hibirdas -->
+         <!--Inicio Volumen 3d -->
+        <div class="imgPop17 oculto" id="imgPop17">
+            <img src="Imagenes/v3d.jpg" alt="Volumen3D" id="imgPop3d">
+        </div>
+        <div class="titulopop17 oculto" id="tituloPop17">
+            <h4>Volumen 3D</h4>
+        </div>
+        <div class="divisor17 oculto" id="divisor17">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion17 oculto" id="descripcion17">
+            <p>El volumen 3D es ideal para pestañas delgadas y pequeñas que quieran lucir volumen extra sin agregar peso a tus pestañas naturales</p>
+        </div>
+        <div class="extra17 oculto" id="extra17">
+            <div class="tituloe17" id="tituloe17"><h4>Quieres Mas?</h4></div>
+            <div class="extras17" id="extras17">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto17" id="divisorB17">
+                    <span class="lined17" id="lined17"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Volumen 3d -->
+         <!--Inicio Volumen Griego 5d-->
+         <div class="imgPop18 oculto" id="imgPop18">
+            <img src="Imagenes/griego.jpg" alt="VolumenGriego" id="imgPopGriego">
+        </div>
+        <div class="titulopop18 oculto" id="tituloPop18">
+            <h4>Volumen Griego 5D</h4>
+        </div>
+        <div class="divisor18 oculto" id="divisor18">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion18 oculto" id="descripcion18">
+            <p>Las fibras tecnologicas 5D son ideales para agregar un volumen notable y espeso a tus pestañas sin dañar tu pestaña natural</p>
+        </div>
+        <div class="extra18 oculto" id="extra18">
+            <div class="tituloe18" id="tituloe18"><h4>Quieres Mas?</h4></div>
+            <div class="extras18" id="extras18">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto18" id="divisorB18">
+                    <span class="lined18" id="lined18"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Volumen Griego 5d -->
+         <!--Inicio Volumen CavitoSpa 8d -->
+         <div class="imgPop19 oculto" id="imgPop19">
+            <img src="Imagenes/v8d.jpeg" alt="VolumenCavitoSPA8D" id="imgPopV8D">
+        </div>
+        <div class="titulopop19 oculto" id="tituloPop19">
+            <h4>Volumen CavitoSPA 8D</h4>
+        </div>
+        <div class="divisor19 oculto" id="divisor19">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion19 oculto" id="descripcion19">
+            <p>El volumen CavitoSPA es perfecto para añadir carácter y personalidad a tus pestañas, el diseño lo eliges tu o da la oprtunidad 
+                a tu lashista que haga un diseño personalizado 100% pensado en ti</p>
+        </div>
+        <div class="extra19 oculto" id="extra19">
+            <div class="tituloe19" id="tituloe19"><h4>Quieres Mas?</h4></div>
+            <div class="extras19" id="extras19">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto19" id="divisorB19">
+                    <span class="lined19" id="lined19"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Volumen CavitoSPA 8d -->
+         <!--Inicio Volumen -->
+         <div class="imgPop20 oculto" id="imgPop20">
+            <img src="Imagenes/volumen.png" alt="Volumen" id="imgPopVol">
+        </div>
+        <div class="titulopop20 oculto" id="tituloPop20">
+            <h4>Volumen</h4>
+        </div>
+        <div class="divisor20 oculto" id="divisor20">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion20 oculto" id="descripcion20">
+            <p>Luce una mirada glamorosa, es perfecto para personas con pestañas naturales despersas y desordenadas donde se requiere relleno adicional</p>
+        </div>
+        <div class="extra20 oculto" id="extra20">
+            <div class="tituloe20" id="tituloe20"><h4>Quieres Mas?</h4></div>
+            <div class="extras20" id="extras20">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto20" id="divisorB20">
+                    <span class="lined20" id="lined20"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin Volumen -->
+         <!--Inicio MegaVolumen -->
+         <div class="imgPop21 oculto" id="imgPop21">
+            <img src="Imagenes/mvol.webp" alt="Mega Volumen" id="imgPopMVol">
+        </div>
+        <div class="titulopop21 oculto" id="tituloPop21">
+            <h4>Mega Volumen</h4>
+        </div>
+        <div class="divisor21 oculto" id="divisor21">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion21 oculto" id="descripcion21">
+            <p>Si estas lista para robar miradas y que la gente note que llevas extensiones de pestañas, el Mega Volumen es para ideal para ti!</p>
+        </div>
+        <div class="extra21 oculto" id="extra21">
+            <div class="tituloe21" id="tituloe21"><h4>Quieres Mas?</h4></div>
+            <div class="extras21" id="extras21">
+                <ul>
+                    <li>Extra Largo</li>
+                    <li>Pop Color</li>
+                    <li>Color</li>
+                    <li>Glitter</li>
+                    <li>Glitter +</li>
+                    <li>Pestañas especiales</li>
+                </ul>
+                <div class="divisor oculto oculto21" id="divisorB21">
+                    <span class="lined21" id="lined21"></span>
+                </div>
+                <h5>Costo Bajo Cotización</h5>
+            </div>
+        </div>
+         <!--Fin MegaVolumen -->
+         <!--Inicio Retiro -->
+         <div class="imgPop22 oculto" id="imgPop22">
+            <img src="Imagenes/retiro.jpg" alt="Retiro" id="imgPopRetiro">
+        </div>
+        <div class="titulopop22 oculto" id="tituloPop22">
+            <h4>Retiro</h4>
+        </div>
+        <div class="divisor22 oculto" id="divisor22">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion22 oculto" id="descripcion22">
+            <p>Recuerda que el retiro es gratis al agendar un set nuevo!</p>
+        </div>
+         <!--Fin Retiro -->
+        <!--Inicio Extra Largo-->
+        <div class="imgPop23 oculto" id="imgPop23">
+            <img src="Imagenes/xl.jpg" alt="Extra Largo" id="imgPopXL">
+        </div>
+        <div class="titulopop23 oculto" id="tituloPop23">
+            <h4>Extra Largo</h4>
+        </div>
+        <div class="divisor23 oculto" id="divisor23">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion23 oculto" id="descripcion23">
+            <p>Si deseas llevar unas pestañas extra largas, en Cavito SPA tenemos medisdas de 17mm-20mm</p>
+        </div>
+        <!--Fin Extra Largo-->
+        <!--Inicio Pop Color-->
+        <div class="imgPop24 oculto" id="imgPop24">
+            <img src="Imagenes/PCol.jpg" alt="Pop Color" id="imgPopPCol">
+        </div>
+        <div class="titulopop24 oculto" id="tituloPop24">
+            <h4>Pop Color</h4>
+        </div>
+        <div class="divisor24 oculto" id="divisor24">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion24 oculto" id="descripcion24">
+            <p>Agrega una pizca de color a tus pestañas</p>
+        </div>
+        <!--Fin Pop Color-->
+        <!--Inicio Color -->
+        <div class="imgPop25 oculto" id="imgPop25">
+            <img src="Imagenes/Col.jpg" alt="Color" id="imgPopCol">
+        </div>
+        <div class="titulopop25 oculto" id="tituloPop25">
+            <h4>Color</h4>
+        </div>
+        <div class="divisor25 oculto" id="divisor25">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion25 oculto" id="descripcion25">
+            <p>Te encanta el color? <br>
+                Agregalo a todo tu set!</p>
+        </div>
+        <!--Fin Color -->
+        <!--Inicio Glitter-->
+        <div class="imgPop26 oculto" id="imgPop26">
+            <img src="Imagenes/Glit.jpg" alt="Glitter" id="imgPopGlit">
+        </div>
+        <div class="titulopop26 oculto" id="tituloPop26">
+            <h4>Glitter</h4>
+        </div>
+        <div class="divisor26 oculto" id="divisor26">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion26 oculto" id="descripcion26">
+            <p>Haz que tus pestañas brillen agregando 2/4 pestañas cargadas de glitter a tu set</p>
+        </div>
+        <!--Fin Glitter-->
+        <!--Inicio Glitter Full-->
+        <div class="imgPop27 oculto" id="imgPop27">
+            <img src="Imagenes/GlitF.jpg" alt="Glitter Full" id="imgPopGlitF">
+        </div>
+        <div class="titulopop27 oculto" id="tituloPop27">
+            <h4>Glitter Full</h4>
+        </div>
+        <div class="divisor27 oculto" id="divisor27">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion27 oculto" id="descripcion27">
+            <p>No te limites con el brillo y agregalo a todo tu set!</p>
+        </div>
+        <!--Fin Glitter Full-->
+         <!--Inicio Diseño de Cejas -->
+         <div class="imgPop28 oculto" id="imgPop28">
+            <img src="Imagenes/DC.webp" alt="Diseño de cejas" id="imgPopCj">
+        </div>
+        <div class="titulopop28 oculto" id="tituloPop28">
+            <h4>Diseño de Cejas</h4>
+        </div>
+        <div class="divisor28 oculto" id="divisor28">
+            <span class="lined" id="lined"></span>
+        </div>
+        <div class="descripcion28 oculto" id="descripcion28">
+            <p>Servicio personalizado de depilación con cera que consiste en darle la forma correcta a tus cejas, el formato natural y caracteristicas de la misma</p>
+        </div>
+         <!--Fin Diseño de Cejas-->
+         <!--Fin de PopUp-->
+    <script src="app.js"></script>
+</body>
+</html>
